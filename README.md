@@ -1,6 +1,9 @@
 # FrnnMUTE: French RNN Medical Understandability Text Embeddings
 This repo contains the pre-trained French RNN Medical Understandability Text Embeddings, described in [H. Pylieva<sup>1</sup> (2019).  “Detection of Difficult for UnderstandingMedical Words using Deep Learning”. MA thesis. Lviv: Ukrainian Catholic University.].  The work was done in collaboration with Artem Chernodub<sup>1,2</sup>, Natalia Grabar<sup>3</sup> and Thierry Hamon<sup>4,5</sup> .
 
+FrnnMUTE were trained on manual annotations of French medical words, available by link: http://natalia.grabar.free.fr/resources.php#rated  
+We used the annotations of A1 annotator for training.
+
 To read FrnnMUTE using Python from the file in this project:
 ```
 import pickle
