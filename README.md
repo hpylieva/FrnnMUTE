@@ -24,6 +24,11 @@ If you use the FrnnMUTE or would like to refer to it, please cite the paper ment
 FrnnMUTE were trained on manual annotations of French medical words, available by link: http://natalia.grabar.free.fr/resources.php#rated  
 We used the annotations of A1 annotator for training. Note that in the master thesis the annotators O1, O2, O3 are in fact annotators A1, A2, A3 in the dataset available by link (just different names).
 
+How FrnnMUTE were received:
+1. We pre-trained character-level LSTM on target difficult for understanding words categorization task.
+2. Last hidden state of the pre-trained RNN is 50-dimensional words' representation which are FrnnMUTE.
+![alt text](frnn_pip.png)
+
 To read FrnnMUTE using Python from the file in this project:
 ```
 import pickle
